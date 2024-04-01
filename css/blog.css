@@ -3,13 +3,36 @@ h1 {
   margin-bottom: 100px;
 }
 
-.home {
+/* .home {
   position: absolute;
   top: 100px;
   right: 100px;
   justify-content: flex-end;
   
 }
+ */
 
 
+.post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
+.post h2 {
+  margin-top: 0;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+
+.post a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
