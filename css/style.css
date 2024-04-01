@@ -51,12 +51,12 @@ main{
 }
 
 #blogForm label{
-    width:95%;
+    width:100%;
 }
 #blogForm button {
-    width: 97%;
-    border-radius: 5px;
-    background-color: black;
+    width: 100%;
+    border-radius: 10px;
+    background-color: gray;
     color: white;
     padding: 2%;
 }
