@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Blog</title>
-
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/form.css">
-
-    <link rel="stylesheet" href="css/light.css" id="light-theme">
-    <link rel="stylesheet" href="css/dark.css" id="dark-theme">
-
-   
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your website description here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <title>My First Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
-    <header>
-        <h1>Blogify</h1>
-
-        <div class="toggle-container">
-            <label class="switch" for="toggle-theme">
-                <input type="checkbox" id="toggle-theme">
-                <span class="slider round"></span>
-            </label>
-        </div>
-              
-    </header>
-    <main>
-        
-
-        <form id="blogForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="title">Blog Title:</label>
-            <input type="text" name="" id="title" name="title" required>
-            <label for="content">Blog Content:</label>
-            <textarea name="content" id="content" cols="165" rows="5" required></textarea>
-            <button type="submit">
-                <a href="blog.html">Submit</a>
-            </button>
-        </form>
-    </main>
-
-    <script src="js/form.js"></script>
-
-    
+  <nav>
+    <h1>Blogify</h1>
+    <div class="toggle-container">
+      <label class="switch" for="toggle-theme">
+        <input type="checkbox" id="toggle-theme">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </nav>
+  <main>
+    <form id="blogForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="title">Blog Title:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="content">Blog Content:</label>
+      <textarea name="content" id="content" cols="55" rows="10" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <script src="js/form.js"></script>
+  <script src="js/logic.js"></script>
 </body>
 </html>
+

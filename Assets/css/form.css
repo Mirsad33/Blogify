@@ -1,0 +1,39 @@
+/* Ensure consistent spacing between form elements */
+#blogForm {
+    margin-bottom: 20px;
+  }
+  
+  /* Style input fields */
+  #blogForm input[type="text"],
+  #blogForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style submit button */
+  #blogForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Optionally, style labels for better alignment */
+  #blogForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+  }
+  
+  

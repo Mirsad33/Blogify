@@ -1,0 +1,46 @@
+/* Blog title styles */
+h1 {
+  margin-bottom: 100px;
+}
+
+/* Home link styles */
+.home-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+/* Blog post styles */
+.post {
+  margin-bottom: 30px; /* Adjusted for better spacing */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+
+.post a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
+

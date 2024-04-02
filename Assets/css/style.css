@@ -1,0 +1,54 @@
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Main content styles */
+  main {
+    margin: auto;
+    padding: 10%;
+  }
+  
+  /* Form styles */
+  #blogForm {
+    display: block;
+    line-height: 2.5;
+  }
+  
+  #blogForm input {
+    width: 95%;
+  }
+  
+  #blogForm label {
+    width: 100%;
+  }
+  
+  #blogForm button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: 2%;
+  }
+  
+  /* Toggle button styles */
+  .toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+  }
+  
+  
