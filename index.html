@@ -6,9 +6,9 @@
   <meta name="description" content="Your website description here">
   <meta name="keywords" content="keyword1, keyword2, keyword3">
   <title>My First Blog</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/form.css">
-  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/form.css">
+<link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
   <nav>
@@ -28,11 +28,19 @@
       <input type="text" id="title" name="title" required>
       <label for="content">Blog Content:</label>
       <textarea name="content" id="content" cols="55" rows="10" required></textarea>
+      
       <button type="submit">Submit</button>
     </form>
+
+    <!-- Placeholder for displaying blog posts -->
+    <div id="blogPosts">
+      <!-- Blog posts will be inserted here -->
+    </div>
   </main>
-  <script src="js/form.js"></script>
-  <script src="js/logic.js"></script>
+
+  <script src="assets/js/blog.js"></script>
+<script src="assets/js/form.js"></script>
+<script src="assets/js/logic.js"></script>
 </body>
 </html>
 
