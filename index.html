@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Your website description here">
-  <meta name="keywords" content="keyword1, keyword2, keyword3">
-  <title>My First Blog</title>
-  <link rel="stylesheet" href="./Assets/css/style.css">
-<link rel="stylesheet" href="./Assets/css/form.css">
-<link rel="stylesheet" href="./Assets/css/blog.css">
-</head>
-<body>
-  <nav>
-    <h1>Blogify</h1>
-    <div class="toggle-container">
-      <label class="switch" for="toggle-theme">
-        <input type="checkbox" id="toggle-theme">
-        <span class="slider round"></span>
-      </label>
-    </div>
-  </nav>
-  <main>
-    <form id="blogForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <label for="title">Blog Title:</label>
-      <input type="text" id="title" name="title" required>
-      <label for="content">Blog Content:</label>
-      <textarea name="content" id="content" cols="55" rows="10" required></textarea>
-      
-      <button type="submit">Submit</button>
-    </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your website description here" />
+    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <title>My First Blog</title>
+    <style>
+      /* Common styles */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        background-color: #f0f0f0;
+        padding: 10px;
+      }
+      /* Light mode styles */
+      .light-mode {
+        color: #333; /* Black text */
+        background-color: #fff; /* White background */
+      }
+      /* Dark mode styles */
+      .dark-mode {
+        color: #ddd; /* Light grey text */
+        background-color: #222; /* Dark grey background */
+      }
+    </style>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="stylesheet" href="./Assets/css/form.css" />
+    <link rel="stylesheet" href="./Assets/css/blog.css" />
+  </head>
+  <body class="dark-mode">
+    <nav>
+      <h1>Blogify</h1>
+      <div class="toggle-container">
+        <label class="switch" for="toggle-theme">
+          <input type="checkbox" id="toggle-theme" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </nav>
+    <main>
+      <form id="blogForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="title">Blog Title:</label>
+        <input type="text" id="title" name="title" required />
+        <label for="content">Blog Content:</label>
+        <textarea
+          name="content"
+          id="content"
+          cols="55"
+          rows="10"
+          required
+        ></textarea>
 
-    <!-- Placeholder for displaying blog posts -->
-    <div id="blogPosts">
-      <!-- Blog posts will be inserted here -->
-    </div>
-  </main>
+        <button type="submit">Submit</button>
+      </form>
 
-  <script src="./Assets/js/form.js"></script>
-  <script src="./Assets/js/blog.js"></script>
-<script src="./Assets/js/logic.js"></script>
-</body>
+      <!-- Placeholder for displaying blog posts -->
+      <div id="blogPosts">
+        <!-- Blog posts will be inserted here -->
+      </div>
+    </main>
+
+    <script src="./Assets/js/form.js"></script>
+    <script src="./Assets/js/blog.js"></script>
+    <script src="./Assets/js/logic.js"></script>
+  </body>
 </html>
-
